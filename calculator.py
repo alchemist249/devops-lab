@@ -1,7 +1,12 @@
-
 def add(a, b):
-#"""Return the sum of a and  b."""
     return a + b
+
+
 def subtract(a, b):
     return a - b
 
+
+if __name__ == "__main__":
+    a, b = map(int, input().split())
+    print(add(a, b))
+    print(subtract(a, b))
